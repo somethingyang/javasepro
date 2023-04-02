@@ -1,0 +1,23 @@
+1-16
+
+詹姆斯·高斯林
+
+java SE：标准版
+java EE：企业版
+java ME：小型版
+
+
+返回上一级：cd..
+返回盘符根目录：cd\
+清屏：cls
+查看当前路径下的文件信息：dir
+
+
+JDK：java工具包
+    JRE：
+        JVM：java虚拟机
+        核心类库
+    开发工具：
+        java
+        javac
+

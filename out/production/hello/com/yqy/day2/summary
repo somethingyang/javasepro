@@ -1,0 +1,68 @@
+17-
+
+cmd
+    计算器：calc
+
+
+0b：二进制
+0：八进制
+0x：十六进制
+
+数据类型：
+    整数：
+        byte
+        short
+        int
+        long：使用时数据后面要加L/l
+    浮点数：
+        float：使用时数据后面要加F/f
+        double
+    字符：
+        char
+    布尔：
+        boolean
+
+关键字
+
+标识符
+
+类型转换：
+    自动类型转换：
+        byte——>short——>int——>long——>float——>double
+        char——>int
+    表达式自动类型转换：
+        表达式的最终结果由表达式中最高类型决定
+        byte、short、char——>int——>long——>float——>double
+        byte、short、char是直接转换成int参与运算的
+    强制类型转换：
+        数据可能丢失（溢出）
+        浮点型转换成整型会丢失小数部分
+
+运算符：
+    基本运算符：
+        + - * / %
+    赋值运算符：
+        = += -= *= /= %=
+    关系运算符：
+        == ！= > < >= <=
+    逻辑运算符：
+        & | ！ ^ && ||
+    三元运算符：
+        条件表达式？值1：值2；
+        当条件表达式为真返回值1，否则返回值2
+
+        int res2 = num1 > num2 ? num1 > num3 ? num1 : num3 : num2 > num3 ? num2 : num3;
+        int res2 = num1 > num2 ? (num1 > num3 ? num1 : num3) : (num2 > num3 ? num2 : num3);
+        System.out.println(res2);
+    运算符优先级
+
+键盘输入
+
+程序控制语句
+    顺序
+        程序默认执行顺序
+    分支
+        if、switch···case
+            switch穿透现象
+    循环
+        for、while、do···while
