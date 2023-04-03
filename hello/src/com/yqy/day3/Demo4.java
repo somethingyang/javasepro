@@ -10,9 +10,8 @@ public class Demo4 {
 
         print();
     }
-    public static int sum(int a , int b){
-        int c = a + b;
-        return c;
+    public static int sum(int a , int b){;
+        return a + b;
     }
 
     public static void print(){
