@@ -1,0 +1,13 @@
+82-90
+
+ArrayList集合
+    特点：集合的大小不固定，启动后可以动态变化，类型也可以选择不固定
+    创建集合的对象：
+        ArrayList list = new ArrayList();
+    添加元素：
+        list.add("Java");
+        list.add(1,"huawei");
+    泛型概述：
+        ArrayList<E>：其实就是一个泛型类，可以在编译阶段约束对象只能操作某种数据类型
+            ArrayList<String>：此集合只能操作字符串类型的元素
+            ArrayList<Integer>：此集合只能操作整数类型的元素
