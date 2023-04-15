@@ -1,0 +1,52 @@
+117-123
+
+Object类：
+    一个类要么默认继承Object类，要么间接继承Object类，Object类是Java中的祖宗类
+
+    toString():
+        默认返回当前对象的地址，重写可以返回内容
+    equals():
+        默认比较地址是否相同，重写可以比较内容
+
+    Objects：
+        equals方法更加安全可以避免比较对象为空的情况
+        isNull为空返回true
+
+    StringBuilder：
+        是一个可变的字符串
+        作用：提高字符串的操作效率，如拼接、修改
+
+    Math:
+        不可以创建对象，相当于是一个工具类
+
+    System：
+        不可以创建对象
+
+    BigDecimal:
+        用于解决浮点型运算精度失真的问题
+        BigDecimal对象的获取：
+            BigDecimal b1 = BigDecimal.valueOf(0.1);
+
+    Date：
+        Date类的对象代表的是当前系统的时间
+
+    SimpleDateFormat:
+        可以把Data对象或时间毫秒值格式化为我们喜欢的时间形式
+        可以把字符串的时间形式解析成日期对象
+
+    Calendar:
+        代表了系统此刻日期对应的日历对象
+        是一个抽象类，不能直接创建对象，可以使用下面的方法创建对象：
+            Calendar cal = Calendar.getInstance();
+
+    JDK8的java.time包提供了新的API
+
+        Duration:用于计算两个”时间“间隔
+        Period:用于计算两个”日期“间隔
+
+    包装类：
+        八种基本数据类型对应的引用类型
+
+        包装类的变量的默认值可以是null，容错率更高
+        可以把基本类型的数据类型转换成字符串类型
+        可以把字符串类型的数据类型转换成基本类型
